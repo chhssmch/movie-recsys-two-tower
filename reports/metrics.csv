@@ -1,0 +1,3 @@
+model,Precision@10,Recall@10,NDCG@10,Coverage,n_users
+Two-Tower,0.0973,0.0186,0.0943,0.0755,188
+Popularity,0.3702,0.0812,0.3881,0.0059,188

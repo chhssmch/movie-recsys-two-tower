@@ -1,0 +1,46 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Данные (тяжёлые файлы, не коммитим)
+data/raw/
+data/processed/
+
+# Модели (веса, большие бинарники)
+models/
+*.weights.h5
+*.h5
+
+# Логи и временные файлы
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TensorFlow
+*.pb
+events.out.tfevents.*
+
+# Кэш
+.cache/
+.pytest_cache/
